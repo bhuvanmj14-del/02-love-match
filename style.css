@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 22px;
+  font-family: Arial, sans-serif; color: #3c2438;
+  background: radial-gradient(circle at top left, #ffe0ea, transparent 45%), #f7eafa;
+}
+.panel {
+  width: min(100%, 440px); padding: 34px; border-radius: 25px;
+  background: #fff; box-shadow: 0 18px 50px #8a477022;
+}
+.heart { font-size: 48px; color: #e64f88; text-align: center; }
+.tag { text-align: center; color: #c34e7d; font-size: 11px; letter-spacing: 2px; font-weight: bold; }
+h1 { text-align: center; margin: 8px 0; }
+.sub { text-align: center; color: #876b7d; line-height: 1.5; margin-bottom: 25px; }
+label { display: block; margin: 14px 0 7px; font-weight: bold; font-size: 14px; }
+input { width: 100%; padding: 13px; border: 1px solid #edcbd9; border-radius: 10px; font-size: 15px; }
+input:focus { outline: 2px solid #e98bb0; border-color: transparent; }
+button { width: 100%; margin-top: 20px; padding: 14px; border: 0; border-radius: 11px; color: white; background: #d94f83; font-weight: bold; cursor: pointer; }
+.result { margin: 20px 0 12px; padding: 17px; border-radius: 13px; background: #fff0f5; text-align: center; color: #a33362; font-weight: bold; }
+small { display: block; color: #8d7c86; text-align: center; line-height: 1.4; }

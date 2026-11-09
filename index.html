@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>love Match</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="panel">
+    <div class="heart">♡</div>
+    
+    <h1>love Match</h1>
+    <p class="sub">Enter two names and discover a playful match score.</p>
+    <form id="matchForm">
+      <label for="nameOne">First name</label>
+      <input id="nameOne" type="text" placeholder="Enter first name" required>
+      <label for="nameTwo">Second name</label>
+      <input id="nameTwo" type="text" placeholder="Enter second name" required>
+      <button type="submit">Calculate match</button>
+    </form>
+    <section id="result" class="result" aria-live="polite">Your result will appear here.</section>
+    <small></small>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
